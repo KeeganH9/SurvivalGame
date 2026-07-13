@@ -30,4 +30,5 @@ UI and Audio Assets
 https://kenney.nl/assets/ui-pack-adventureLinks to an external site.Links to an external site.
 https://kenney.nl/assets/ui-audioLinks to an external site.
 https://www.mixamo.com/#/?page=1&query=axe
+https://www.mixamo.com/#/?page=1&query=shield
 
