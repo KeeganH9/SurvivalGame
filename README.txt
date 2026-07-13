@@ -1,10 +1,10 @@
-TITLE: Fight and Survive
+TITLE: Onslaught
 
 Currently the game has gone through all of the instructional videos to get the game up and running with the ores trees, and mushrooms being added as the interactable objects
 
 I have also added into the map a structure that I will make spawn randomly during checkpoint 2
 
-using WASD to move, e to collect, shift to run and space to jump
+using WASD to move, e to collect, shift to run and space to jump, left click to swing/attack, right click to block.
 
 CONCEPT:
 
@@ -29,4 +29,5 @@ https://kenney.nl/assets/food-kitLinks to an external site.Links to an external 
 UI and Audio Assets
 https://kenney.nl/assets/ui-pack-adventureLinks to an external site.Links to an external site.
 https://kenney.nl/assets/ui-audioLinks to an external site.
+https://www.mixamo.com/#/?page=1&query=axe
 
