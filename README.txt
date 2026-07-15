@@ -13,6 +13,8 @@ The player can now swing and hit the zombies causing them to die.
 
 Also added in a starting camp for the player to start in.
 
+Extra Large forest added with a spawn area for wolves, animations for the wolves are also in the animator.
+
 CONCEPT:
 
 I want to make it into a wave based enemy spawning survival game where the player collects the items to allow the player to upgrade a weapon increase health and possible increase damage or speed and the goal is to survive as long as possible while more and more enemies spawn.
