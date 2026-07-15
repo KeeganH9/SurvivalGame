@@ -2,11 +2,14 @@ TITLE: Onslaught
 
 Currently the game has gone through all of the instructional videos to get the game up and running with the ores trees, and mushrooms being added as the interactable objects
 
-I have also added into the map a structure that I will make spawn randomly during checkpoint 2
+I have also added into the map a structure a church structure with a graveyard that the zombies spawn in, Going to add a massive forest where wolves are going to spawn and the trees there are not going to be able to be cut down like the other trees around the map.
 
 using WASD to move, e to collect, shift to run and space to jump, left click to swing/attack, right click to block.
 
 Zombies will spawn around the map and make their way to the player.
+The zombies Now have full animations for running, idle, attacks, and dying. 
+
+The player can now swing and hit the zombies cause thing to die.
 
 CONCEPT:
 
@@ -37,4 +40,6 @@ https://assetstore.unity.com/packages/3d/characters/humanoids/free-zombie-male-a
 https://assetstore.unity.com/packages/3d/props/weapons/3d-low-poly-shields-239460
 https://assetstore.unity.com/packages/3d/props/weapons/melee-weapons-pack-28-246654
 https://www.mixamo.com/#/?page=1&query=zombie+walk
+https://assetstore.unity.com/packages/3d/props/ganzse-free-camping-fantasy-low-poly-props-370804
+https://assetstore.unity.com/search#q=wolf
 
