@@ -2,14 +2,16 @@ TITLE: Onslaught
 
 Currently the game has gone through all of the instructional videos to get the game up and running with the ores trees, and mushrooms being added as the interactable objects
 
-I have also added into the map a structure a church structure with a graveyard that the zombies spawn in, Going to add a massive forest where wolves are going to spawn and the trees there are not going to be able to be cut down like the other trees around the map.
+I have also added into the map a 2 structures a church structure with a graveyard that the zombies spawn in, Going to add a massive forest where wolves are going to spawn and the trees there are not going to be able to be cut down like the other trees around the map.
 
 using WASD to move, e to collect, shift to run and space to jump, left click to swing/attack, right click to block.
 
 Zombies will spawn around the map and make their way to the player.
 The zombies Now have full animations for running, idle, attacks, and dying. 
 
-The player can now swing and hit the zombies cause thing to die.
+The player can now swing and hit the zombies causing them to die. 
+
+Also added in a starting camp for the player to start in.
 
 CONCEPT:
 
