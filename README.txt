@@ -2,18 +2,17 @@ TITLE: Onslaught
 
 Currently the game has gone through all of the instructional videos to get the game up and running with the ores trees, and mushrooms being added as the interactable objects
 
-I have also added into the map a 2 structures a church structure with a graveyard that the zombies spawn in, Going to add a massive forest where wolves are going to spawn and the trees there are not going to be able to be cut down like the other trees around the map.
+I have also added into the map a 2 structures a church structure with a graveyard that the zombies spawn in, Going to add a massive forest where wolves are going to spawn and the trees there are not going to be able to be cut down like the other trees around the map. Wolves now spawn and have a rudementory ai allowing them to wander and go after the player if the player gets too close. Extra Large forest added with a spawn area for wolves, animations for the wolves are also in the animator.
 
-using WASD to move, e to collect, shift to run and space to jump, left click to swing/attack, right click to block.
+Using WASD to move, E to collect, I to enter the inventory, C to enter the crafting menu, SHIFT to run and SPACE to jump, LEFT CLICK to swing/attack, RIGHT CLICK to block(Not yet added).
 
 Zombies will spawn around the map and make their way to the player.
 The zombies Now have full animations for running, idle, attacks, and dying. 
 
-The player can now swing and hit the zombies causing them to die. 
+The player can now swing and hit the zombies causing them to die. Added a crafting screen and UI to the inventory and you can equip the craftables using the number of the inventory slot to equip for example if axe is in inventory slot 4 press 4 to equip(This will changes to a click to equip soon)
 
 Also added in a starting camp for the player to start in.
 
-Extra Large forest added with a spawn area for wolves, animations for the wolves are also in the animator.
 
 CONCEPT:
 
