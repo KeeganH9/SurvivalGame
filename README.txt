@@ -1,17 +1,57 @@
 TITLE: Onslaught
 
-Currently the game has gone through all of the instructional videos to get the game up and running with the ores trees, and mushrooms being added as the interactable objects
+---
+SCENES:
+-added a title scene
+-added the game scene
 
-I have also added into the map a 2 structures a church structure with a graveyard that the zombies spawn in, Going to add a massive forest where wolves are going to spawn and the trees there are not going to be able to be cut down like the other trees around the map. Wolves now spawn and have a rudementory ai allowing them to wander and go after the player if the player gets too close. Extra Large forest added with a spawn area for wolves, animations for the wolves are also in the animator.
+---
 
-Using WASD to move, E to collect, I to enter the inventory, C to enter the crafting menu, SHIFT to run and SPACE to jump, LEFT CLICK to swing/attack, RIGHT CLICK to block(Not yet added).
+STRUCTURES: 
+-added player spawn Camp
+-added large forest biome where wolves spawn
+-added church and graveyard where zombies spawn in
 
-Zombies will spawn around the map and make their way to the player.
-The zombies Now have full animations for running, idle, attacks, and dying. 
+---
 
-The player can now swing and hit the zombies causing them to die. Added a crafting screen and UI to the inventory and you can equip the craftables using the number of the inventory slot to equip for example if axe is in inventory slot 4 press 4 to equip(This will changes to a click to equip soon)
+COMBAT:
+-Player can equip weapons and press left click to attack with them
+-Each Weapon/Unarmed object will have its own stats in game
+-Player can take damage from zombies
+-Zombies Ai and attacks have been implemented they now do damage to the player and the health bar UI segments deplete as certain amounts of damage are done
 
-Also added in a starting camp for the player to start in.
+---
+
+SPAWN AREAS:
+-Player Spawn in at the camp grounds
+-Zombies spawn in two areas in the north and south part of the map at the church gravesites
+-Wolves spawn in areas by the large forest
+
+---
+
+CONTROLS:
+-Movearound using WASD
+-E to collect interacables
+-C to enter crafting interface
+-I to enter invenotry
+-Left Click to swing and attack, while in inventory to equip items, and to select recipes and craft intems in crafting ui
+-NOT ADDED: right click to block if sheild is in right hand
+
+---
+
+UI: 
+Implemented: 
+-Inventory system where collected and crafted items are
+-Added a crafting system where player can select the recipe and then it shows the resources required and a craft button that takes the item to the inventory
+-Added the ability to click on equipable objects in inventory and now player can equip things with a click
+-These items are also highlighted in the invtory UI
+-Added a health Bar that deplets as player takes damage
+
+---
+
+CRAFTING RECIPES:
+- Axes is craftable and equipable
+
 
 
 CONCEPT:
