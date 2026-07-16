@@ -51,6 +51,8 @@ Implemented:
 
 CRAFTING RECIPES:
 - Axes is craftable and equipable
+-Sword is craftable
+-Health Potion Is craftable
 
 
 
@@ -85,4 +87,5 @@ https://assetstore.unity.com/packages/3d/props/weapons/melee-weapons-pack-28-246
 https://www.mixamo.com/#/?page=1&query=zombie+walk
 https://assetstore.unity.com/packages/3d/props/ganzse-free-camping-fantasy-low-poly-props-370804
 https://assetstore.unity.com/search#q=wolf
-
+https://assetstore.unity.com/packages/3d/props/stylized-potions-357840
+https://www.mixamo.com/#/?page=1&query=drink
