@@ -4,6 +4,7 @@ TITLE: Onslaught
 SCENES:
 -added a title scene
 -added the game scene
+(Soon to be added- Death Screen, and loading screen after Title Menu to load in assets)
 
 ---
 
@@ -50,9 +51,20 @@ Implemented:
 ---
 
 CRAFTING RECIPES:
-- Axes is craftable and equipable
--Sword is craftable and equipable
+-Axes is craftable and equipable and it usable with animation
+-Sword is craftable and equipable and useable with attack animation
 -Health Potion Is craftable and equipable and now the drink animation is working correctly
+
+---
+
+RESOURCES/TERRAIN:
+-Added Mushrooms
+-Added 3 different havestable trees- Ash, Birch, Spruce
+-Added Ores
+-Added Stones
+-Added apples harvestable from apple tree
+-Added new terrain texture
+-Added new grass textures
 
 
 
@@ -60,7 +72,7 @@ CONCEPT:
 
 I want to make it into a wave based enemy spawning survival game where the player collects the items to allow the player to upgrade a weapon increase health and possible increase damage or speed and the goal is to survive as long as possible while more and more enemies spawn.
 
-I used the links in class for all of my assets:
+ASSET LINKS:
 https://assetstore.unity.com/packages/3d/environments/low-poly-environment-nature-free-lowpoly-medieval-fantasy-series-187052Links to an external site.Links to an external site.
 https://assetstore.unity.com/packages/essentials/starter-assets-thirdperson-urp-196526Links to an external site.Links to an external site.
 https://pixabay.com/sound-effects/nature-night-forest-with-frogs-and-crickets-for-sleep-451153/Links to an external site.Links to an external site.
