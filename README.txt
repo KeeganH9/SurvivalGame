@@ -46,7 +46,8 @@ Implemented:
 -Added a crafting system where player can select the recipe and then it shows the resources required and a craft button that takes the item to the inventory
 -Added the ability to click on equipable objects in inventory and now player can equip things with a click
 -These items are also highlighted in the invtory UI
--Added a health Bar that deplets as player takes damage
+-Added a health Bar that deplets as player takes damage and can be replenished when health potion is drank
+-Added Compas(New UI will added to the compas soon)
 
 ---
 
