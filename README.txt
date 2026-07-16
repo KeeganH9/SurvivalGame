@@ -51,8 +51,8 @@ Implemented:
 
 CRAFTING RECIPES:
 - Axes is craftable and equipable
--Sword is craftable
--Health Potion Is craftable
+-Sword is craftable and equipable
+-Health Potion Is craftable and equipable and now the drink animation is working correctly
 
 
 
