@@ -67,6 +67,13 @@ RESOURCES/TERRAIN:
 -Added new terrain texture
 -Added new grass textures
 
+---
+
+AUDIO:
+-Added new background music in game to fit the game idea better
+-Added new main menu music
+-Added zombies sounds that correspond to it running, attacking, or dying
+
 
 
 CONCEPT:
@@ -102,3 +109,5 @@ https://assetstore.unity.com/packages/3d/props/ganzse-free-camping-fantasy-low-p
 https://assetstore.unity.com/search#q=wolf
 https://assetstore.unity.com/packages/3d/props/stylized-potions-357840
 https://www.mixamo.com/#/?page=1&query=drink
+https://pixabay.com/music/search/post%20apocalyptic/
+https://assetstore.unity.com/packages/audio/sound-fx/creatures/zombie-voice-audio-pack-free-196645
