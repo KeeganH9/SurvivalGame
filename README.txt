@@ -4,7 +4,7 @@ TITLE: Onslaught
 SCENES:
 -added a title scene
 -added the game scene
-(Soon to be added- Death Screen, and loading screen after Title Menu to load in assets)
+-added death scene
 
 ---
 
@@ -12,6 +12,7 @@ STRUCTURES:
 -added player spawn Camp
 -added large forest biome where wolves spawn
 -added church and graveyard where zombies spawn in
+-(Soon)large dune outside of the playable area that kills the player from radioactivity slowly
 
 ---
 
