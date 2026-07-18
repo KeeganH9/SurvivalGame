@@ -2,30 +2,27 @@ using UnityEngine;
 
 public class InteractableResource : MonoBehaviour
 {
-    public string resourceName = "Apple";
+    public ItemData item;
     public int amountPerCollect = 1;
     public int usesRemaining = 1;
     public string promptText = "Press E to collect";
     public string animationTrigger = "PickFruit";
     public bool destroyWhenEmpty = true;
 
-    private ResourceCounter resourceCounter;
+   
 
-    void Start()
-    {
-        resourceCounter = FindFirstObjectByType<ResourceCounter>();
-    }
+   
 
-    public void Interact()
+    public void Interact(Inventory inventory)
     {
         if (usesRemaining <= 0)
         {
             return;
         }
 
-        if (resourceCounter != null)
+        if (item != null && inventory != null)
         {
-            resourceCounter.AddResource(resourceName, amountPerCollect);
+            inventory.AddItem(item, amountPerCollect);
         }
 
         usesRemaining--;

@@ -2,18 +2,29 @@ using UnityEngine;
 
 public class DayNightManager : MonoBehaviour
 {
+    [Header("Sun")]
     public Light sun;
 
+    [Header("Day Length")]
     public float fullDayLength = 600f;
 
+    [Header("Day Counter")]
+    public int currentDay = 1;
+
     private float dayIntensity = 0.2f;
-    private float nightIntensity = 0.05f;
+    private float nightIntensity = 0.1f;
 
-    private Color dayAmbientColor = new Color(0.55f, 0.58f, 0.62f);
-    private Color nightAmbientColor = new Color(0.01f, 0.012f, 0.01f);
+    private Color dayAmbientColor =
+        new Color(0.55f, 0.58f, 0.62f);
 
-    private Color daySkyTint = new Color(0.35f, 0.45f, 0.6f);
-    private Color nightSkyTint = new Color(0.005f, 0.0065f, 0.01f);
+    private Color nightAmbientColor =
+        new Color(0.08f, 0.09f, 0.12f);
+
+    private Color daySkyTint =
+        new Color(0.35f, 0.45f, 0.6f);
+
+    private Color nightSkyTint =
+        new Color(0.05f, 0.065f, 0.1f);
 
     private float timeOfDay = 0.25f;
 
@@ -31,6 +42,10 @@ public class DayNightManager : MonoBehaviour
         if (timeOfDay >= 1f)
         {
             timeOfDay = 0f;
+
+            currentDay++;
+
+            Debug.Log("Day " + currentDay + " has started.");
         }
 
         UpdateLighting();
@@ -38,12 +53,22 @@ public class DayNightManager : MonoBehaviour
 
     private void UpdateLighting()
     {
-        float sunAngle = timeOfDay * 360f - 90f;
-        sun.transform.rotation = Quaternion.Euler(sunAngle, 170f, 0f);
+        float sunAngle =
+            timeOfDay * 360f - 90f;
 
-        float lightAmount = Mathf.Clamp01(Mathf.Sin(timeOfDay * Mathf.PI));
+        sun.transform.rotation =
+            Quaternion.Euler(sunAngle, 170f, 0f);
 
-        sun.intensity = Mathf.Lerp(nightIntensity, dayIntensity, lightAmount);
+        float lightAmount =
+            Mathf.Clamp01(
+                Mathf.Sin(timeOfDay * Mathf.PI)
+            );
+
+        sun.intensity = Mathf.Lerp(
+            nightIntensity,
+            dayIntensity,
+            lightAmount
+        );
 
         RenderSettings.ambientLight = Color.Lerp(
             nightAmbientColor,
@@ -55,12 +80,20 @@ public class DayNightManager : MonoBehaviour
         {
             RenderSettings.skybox.SetColor(
                 "_Tint",
-                Color.Lerp(nightSkyTint, daySkyTint, lightAmount)
+                Color.Lerp(
+                    nightSkyTint,
+                    daySkyTint,
+                    lightAmount
+                )
             );
 
             RenderSettings.skybox.SetFloat(
                 "_Exposure",
-                Mathf.Lerp(0.008f, 0.65f, lightAmount)
+                Mathf.Lerp(
+                    0.008f,
+                    0.65f,
+                    lightAmount
+                )
             );
         }
 
