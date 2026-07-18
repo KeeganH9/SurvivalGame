@@ -12,7 +12,7 @@ STRUCTURES:
 -added player spawn Camp
 -added large forest biome where wolves spawn
 -added church and graveyard where zombies spawn in
--(Soon)large dune outside of the playable area that kills the player from radioactivity slowly
+-added large dunes outside of the playable area that kills the player slowly unless the get back into the regular playing area
 
 ---
 
@@ -21,6 +21,7 @@ COMBAT:
 -Each Weapon/Unarmed object will have its own stats in game
 -Player can take damage from zombies
 -Zombies Ai and attacks have been implemented they now do damage to the player and the health bar UI segments deplete as certain amounts of damage are done
+-wolves now can attack the player and the player can kill the wolves.
 
 ---
 
@@ -32,18 +33,20 @@ SPAWN AREAS:
 ---
 
 CONTROLS:
--Movearound using WASD
+-Move around using WASD
+-Shift to sprint
+-Space to jump
 -E to collect interacables
 -C to enter crafting interface
 -I to enter invenotry
 -Left Click to swing and attack, while in inventory to equip items, and to select recipes and craft intems in crafting ui
+-F is to consume
 -NOT ADDED: right click to block if sheild is in right hand
 
 ---
 
 UI: 
-Implemented: 
--Inventory system where collected and crafted items are
+-added inventory system where collected and crafted items are
 -Added a crafting system where player can select the recipe and then it shows the resources required and a craft button that takes the item to the inventory
 -Added the ability to click on equipable objects in inventory and now player can equip things with a click
 -These items are also highlighted in the invtory UI
@@ -59,14 +62,15 @@ CRAFTING RECIPES:
 
 ---
 
-RESOURCES/TERRAIN:
+RESOURCES/TERRAIN/TEXTURES:
 -Added Mushrooms
--Added 3 different havestable trees- Ash, Birch, Spruce
+-Added 3 different havestable trees- Ash, Birch, Spruce(Item type for all trees are the same)
 -Added Ores
 -Added Stones
 -Added apples harvestable from apple tree
 -Added new terrain texture
--Added new grass textures
+-Added new grass detail textures
+-Added new character model to fit the games vibes better
 
 ---
 
@@ -76,10 +80,10 @@ AUDIO:
 -Added zombies sounds that correspond to it running, attacking, or dying
 
 
+---
 
-CONCEPT:
-
-I want to make it into a wave based enemy spawning survival game where the player collects the items to allow the player to upgrade a weapon increase health and possible increase damage or speed and the goal is to survive as long as possible while more and more enemies spawn.
+GAMEPLAY LOOP:
+-Added a day night counter where more and more zombies will come to attack the player and it will increase the amount of zombies spawned everysingle night
 
 ASSET LINKS:
 https://assetstore.unity.com/packages/3d/environments/low-poly-environment-nature-free-lowpoly-medieval-fantasy-series-187052Links to an external site.Links to an external site.
@@ -112,3 +116,5 @@ https://assetstore.unity.com/packages/3d/props/stylized-potions-357840
 https://www.mixamo.com/#/?page=1&query=drink
 https://pixabay.com/music/search/post%20apocalyptic/
 https://assetstore.unity.com/packages/audio/sound-fx/creatures/zombie-voice-audio-pack-free-196645
+https://assetstore.unity.com/packages/audio/sound-fx/classic-footstep-sfx-173668
+https://www.mixamo.com/#/?page=1&query=swing
