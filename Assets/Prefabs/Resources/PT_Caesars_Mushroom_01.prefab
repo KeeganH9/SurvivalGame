@@ -127,9 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3988870668be3ed40aeedb712fb52105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableResource
-  resourceName: Mushroom
+  item: {fileID: 11400000, guid: 8298d20e65440e84a84afa64bd12bd53, type: 2}
   amountPerCollect: 1
   usesRemaining: 1
   promptText: Press E to collect
-  animationTrigger: PickOre
+  animationTrigger: GatherOre
   destroyWhenEmpty: 1

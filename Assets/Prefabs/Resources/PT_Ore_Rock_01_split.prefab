@@ -97,11 +97,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3988870668be3ed40aeedb712fb52105, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractableResource
-  resourceName: Ore
+  item: {fileID: 11400000, guid: 21876822f4b31454e89f41afc81030f5, type: 2}
   amountPerCollect: 1
-  usesRemaining: 1
+  usesRemaining: 3
   promptText: Press E to collect
-  animationTrigger: PickOre
+  animationTrigger: GatherOre
   destroyWhenEmpty: 1
 --- !u!1 &1868188171543214933
 GameObject:
